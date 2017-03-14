@@ -1,0 +1,47 @@
+.statusBar {
+  background: #ccc;
+  width: 100%;
+  display: flex;
+}
+.pic {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  margin: 15px;
+  justify-content: flex-start;
+}
+.ui {
+  height: 150px;
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+}
+.bar {
+  width: 100%;
+  height: 100px;
+}
+.top {
+  background: red;
+  display: flex;
+}
+.upper {
+  background: blue;
+}
+.lower {
+  background: green;
+}
+.bottom {
+  background: purple;
+}
+.toggle-ui {
+  height: 30px;
+  width: 75px;
+  margin: 40px;
+  border: none;
+  background: orange;
+  border-radius: 10px;
+  justify-content: flex-end;
+}
+.toggle-ui:focus {
+  outline: none;
+}

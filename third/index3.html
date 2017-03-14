@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style3.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>html-layout-proj3</title>
+  </head>
+  <body>
+    <main role="main">
+      <section id="user-inter">
+        <div class="statusBar">
+          <div class="pic">
+          </div>
+        </div>
+        <div class="ui">
+          This and everything above it will be hidden if you choose to do so.
+        </div>
+      </section>
+      <div class="bar top">
+        <button class="toggle-ui" onclick="myFunction()">Show/Hide UI</button>
+      </div>
+      <div class="bar upper">
+      </div>
+      <div class="bar lower">
+      </div>
+      <div class="bar bottom">
+      </div>
+    </main>
+    <script>
+    function myFunction() {
+    var x = document.getElementById('user-inter');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+    </script>
+  </body>
+</html>
